@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+
+  <!-- 兼容性更好的跳转方式 -->
+  <meta http-equiv="refresh" content="0;url=https://example.com">
+
+  <script>
+    // JS 兜底（防止 meta 失效）
+    window.location.replace("https://example.com");
+  </script>
+
+</head>
+<body>
+  <p>正在跳转，如果没有跳转请点击下面链接：</p>
+  <a href="https://example.com">点击进入</a>
+</body>
+</html>
